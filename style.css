@@ -537,8 +537,44 @@ section {
     font-size: 1.1rem;
 }
 
+/* Simple Machines Grid */
+.machines-grid-simple {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.machine-card-simple {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.machine-card-simple:hover {
+    transform: translateY(-5px);
+}
+
+.machine-card-simple img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Responsive Design for Machines Page */
 @media (max-width: 768px) {
+    .machines-grid-simple {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .machine-card-simple {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    
     .machine-card-detailed {
         grid-template-columns: 1fr;
     }
