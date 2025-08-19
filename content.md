@@ -46,29 +46,40 @@ Complete fabrication services from design consultation to finished assemblies.
 
 ## Equipment Specifications
 
-### Haas VF-6/50 CNC Machining Center
-- **Travel:** 50" x 26" x 25"
-- **Spindle Speed:** 15,000 RPM
+### Haas VF-4 CNC Machining Center
+- **Travel:** 50" x 20" x 24"
+- **4th Axis:** Available
+- **Spindle Speed:** 8,100 RPM
 - **Tool Capacity:** 24 tools
-- **Description:** High-speed vertical machining center ideal for large oil and gas components requiring precision milling operations. Features advanced control systems and tool management for complex geometries.
+- **Description:** High-precision vertical machining center with 4th axis capability, perfect for complex oil and gas components requiring multi-axis operations and superior surface finishes.
 
-### Mazak INTEGREX i-300 Multi-Tasking Machine
-- **Chuck Size:** 12"
-- **Max Turning Diameter:** 20"
-- **Milling Spindle:** 12,000 RPM
-- **Description:** Advanced multi-tasking machine combining turning and milling capabilities in a single setup. Perfect for complex oil field components requiring multiple operations with superior accuracy and reduced cycle times.
-
-### Doosan Puma 600LY CNC Lathe
-- **Swing:** 25.6"
-- **Length:** 80"
-- **Spindle Speed:** 2,500 RPM
-- **Description:** Heavy-duty CNC lathe designed for large diameter turning operations. Excellent for manufacturing drilling equipment components, pipe fittings, and valve bodies with exceptional surface finish and dimensional accuracy.
-
-### Okuma Genos M560-V CNC Machining Center
-- **Travel:** 41" x 20" x 18"
-- **Spindle Speed:** 12,000 RPM
+### Haas VF-5 CNC Machining Center
+- **Travel:** 60" x 32" x 26"
+- **4th Axis:** Available
+- **Spindle Speed:** 6,000 RPM
 - **Tool Capacity:** 40 tools
-- **Description:** Versatile vertical machining center with thermal stability and high-speed capabilities. Optimized for medium to large workpieces common in oil and gas applications, delivering consistent accuracy across extended production runs.
+- **Description:** Large capacity vertical machining center with 4th axis rotary table capability. Features exceptional precision and repeatability for machining large oil field components.
+
+### Kingston CL-38 CNC Lathe
+- **Through Hole:** 4-1/2"
+- **Z-Travel:** 80"
+- **Max Swing:** 38"
+- **Spindle Speed:** 2,000 RPM
+- **Description:** Robust CNC lathe designed for large diameter turning operations common in oil and gas applications, delivering exceptional surface finish and dimensional accuracy.
+
+### Haas ST-30 CNC Lathe (Small Bore)
+- **Through Hole:** 3.5"
+- **Z-Travel:** 20"
+- **Max Swing:** 30"
+- **Spindle Speed:** 3,000 RPM
+- **Description:** Precision CNC lathe with small bore configuration, ideal for smaller diameter components requiring high precision and excellent surface finish.
+
+### Haas ST-30 BB CNC Lathe (Large Bore)
+- **Through Hole:** 4"
+- **Z-Travel:** 60"
+- **Max Swing:** 30"
+- **Spindle Speed:** 3,000 RPM
+- **Description:** Heavy-duty CNC lathe with large bore configuration, perfect for larger oil field components requiring precision turning operations with extended reach capabilities.
 
 ## About Price Machine Shop
 

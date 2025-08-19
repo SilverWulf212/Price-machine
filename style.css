@@ -372,6 +372,198 @@ section {
     list-style: none;
 }
 
+/* Machines Page Styles */
+.machines-hero {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.machines-detailed {
+    padding: 4rem 0;
+    background: #f8f9fa;
+}
+
+.machines-grid-detailed {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.machine-card-detailed {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    transition: transform 0.3s ease;
+}
+
+.machine-card-detailed:hover {
+    transform: translateY(-5px);
+}
+
+.machine-card-detailed:nth-child(even) {
+    grid-template-columns: 1fr 1fr;
+}
+
+.machine-card-detailed:nth-child(even) .machine-image {
+    order: 2;
+}
+
+.machine-card-detailed:nth-child(even) .machine-content-detailed {
+    order: 1;
+}
+
+.machine-image {
+    height: 400px;
+    overflow: hidden;
+}
+
+.machine-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.machine-content-detailed {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.machine-content-detailed h3 {
+    color: #B22222;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.machine-subtitle {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.machine-description {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.machine-specs-detailed {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid #B22222;
+}
+
+.spec-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.spec-row:last-child {
+    border-bottom: none;
+}
+
+.spec-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.spec-value {
+    font-weight: 500;
+    color: #B22222;
+}
+
+.capabilities {
+    padding: 4rem 0;
+    background: #fff;
+}
+
+.capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.capability-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+    transition: border-color 0.3s ease;
+}
+
+.capability-card:hover {
+    border-color: #B22222;
+}
+
+.capability-card h3 {
+    color: #B22222;
+    margin-bottom: 1rem;
+}
+
+.machines-cta {
+    background: linear-gradient(135deg, #B22222, #8B0000);
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.machines-cta h2 {
+    margin-bottom: 1rem;
+}
+
+.machines-cta p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* Responsive Design for Machines Page */
+@media (max-width: 768px) {
+    .machine-card-detailed {
+        grid-template-columns: 1fr;
+    }
+    
+    .machine-card-detailed:nth-child(even) .machine-image {
+        order: 1;
+    }
+    
+    .machine-card-detailed:nth-child(even) .machine-content-detailed {
+        order: 2;
+    }
+    
+    .machine-image {
+        height: 250px;
+    }
+    
+    .machine-content-detailed {
+        padding: 1.5rem;
+    }
+    
+    .machines-hero h1 {
+        font-size: 2rem;
+    }
+}
+
 .certifications li {
     padding: 0.5rem 0;
     border-bottom: 1px solid #eee;
