@@ -651,33 +651,42 @@ section {
 }
 
 .info-card {
-    background: #444;
+    background: #1a1a1a;
     color: #fff;
     padding: 2rem;
     border-radius: 10px;
+    border: 1px solid #333;
 }
 
 .info-card h3 {
-    color: #B22222;
+    color: #ff4444;
     margin-bottom: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .info-item {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #555;
 }
 
 .info-item:last-child {
     border-bottom: none;
 }
 
+.info-item strong {
+    color: #fff;
+    font-weight: 600;
+}
+
 .info-item a {
-    color: #B22222;
+    color: #ff6666;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .info-item a:hover {
+    color: #ff4444;
     text-decoration: underline;
 }
 
