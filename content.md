@@ -81,6 +81,13 @@ Complete fabrication services from design consultation to finished assemblies.
 - **Spindle Speed:** 3,000 RPM
 - **Description:** Heavy-duty CNC lathe with large bore configuration, perfect for larger oil field components requiring precision turning operations with extended reach capabilities.
 
+### UMC-750 5 Axis Mill
+- **X-Travel:** 30"
+- **Y-Travel:** 20"
+- **Z-Travel:** 20"
+- **Axes:** 5-axis simultaneous
+- **Description:** Advanced 5-axis CNC milling center for complex multi-sided machining operations. Perfect for intricate oil and gas components requiring precision multi-axis capabilities and superior surface finishes without multiple setups.
+
 ## About Price Machine Shop
 
 Price Machine Shop, LLC is a locally owned ISO-certified small business with many years of experience in the oil and gas industry. Operating from our state-of-the-art manufacturing facility in Scott, Louisiana, we've built our reputation on delivering precision machining solutions that keep critical operations running.
