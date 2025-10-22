@@ -563,6 +563,20 @@ section {
     display: block;
 }
 
+.machine-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.machine-caption p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #B22222;
+    line-height: 1.6;
+}
+
 /* Responsive Design for Machines Page */
 @media (max-width: 768px) {
     .machines-grid-simple {
