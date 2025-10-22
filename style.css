@@ -564,8 +564,8 @@ section {
 }
 
 .machine-caption {
-    padding: 1.5rem 2.5rem;
-    text-align: left;
+    padding: 1.5rem;
+    text-align: center;
     background: #f8f9fa;
 }
 
@@ -575,7 +575,6 @@ section {
     font-weight: 500;
     color: #B22222;
     line-height: 1.6;
-    text-indent: 2rem;
 }
 
 /* Responsive Design for Machines Page */
