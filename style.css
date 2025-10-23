@@ -274,8 +274,9 @@ section {
 /* Services Section */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 400px));
     gap: 2rem;
+    justify-content: center;
 }
 
 .service-card {
@@ -821,6 +822,12 @@ section {
     
     .hero-subtitle {
         font-size: 1.1rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: 0 auto;
     }
     
     .about-content {
