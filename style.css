@@ -577,11 +577,47 @@ section {
     line-height: 1.6;
 }
 
+/* Featured Machine Section */
+.featured-machine {
+    padding: 3rem 0 2rem 0;
+    background: #f8f9fa;
+}
+
+.featured-machine-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.machine-card-simple-featured {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 600px;
+    width: 100%;
+}
+
+.machine-card-simple-featured:hover {
+    transform: translateY(-5px);
+}
+
+.machine-card-simple-featured img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Responsive Design for Machines Page */
 @media (max-width: 768px) {
     .machines-grid-simple {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    
+    .machine-card-simple-featured {
+        max-width: 100%;
     }
     
     .machine-card-simple {
